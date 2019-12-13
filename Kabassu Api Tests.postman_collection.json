@@ -100,13 +100,13 @@
 	],
 	"variable": [
 		{
-			"id": "6d5853bd-781f-4968-a491-ec1d1980d7b1",
+			"id": "95982bc3-7ffc-4928-bdb1-22aa89c22efe",
 			"key": "token",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "b34eba39-6f1f-4e6d-b69e-e687a7dcfb76",
+			"id": "68ea9b11-b5d5-465f-b092-640a51b9a637",
 			"key": "tokenExpiry",
 			"value": "",
 			"type": "string"

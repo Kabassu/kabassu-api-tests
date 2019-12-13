@@ -52,8 +52,8 @@
 					"    mode: 'application/json',",
 					"    raw: JSON.stringify(",
 					"        {",
-					"        \tusername:'admin',",
-					"        \tpassword_hash:'admin'",
+					"        \tusername:pm.environment.get('username'),",
+					"        \tpassword_hash:pm.environment.get('password')",
 					"        })",
 					"  }",
 					"};",
@@ -100,13 +100,13 @@
 	],
 	"variable": [
 		{
-			"id": "79612c6a-daff-4fea-b5de-4dedc93a7f78",
+			"id": "6d5853bd-781f-4968-a491-ec1d1980d7b1",
 			"key": "token",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "2ffb2c73-bc8a-4a7c-992b-bba964a0b0e1",
+			"id": "b34eba39-6f1f-4e6d-b69e-e687a7dcfb76",
 			"key": "tokenExpiry",
 			"value": "",
 			"type": "string"

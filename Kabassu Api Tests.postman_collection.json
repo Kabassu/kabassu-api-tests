@@ -7,6 +7,20 @@
 	"item": [
 		{
 			"name": "Get Definitions",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e8cffdbf-26c5-48eb-a42f-848abb30f19e",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -100,13 +114,13 @@
 	],
 	"variable": [
 		{
-			"id": "95982bc3-7ffc-4928-bdb1-22aa89c22efe",
+			"id": "a6fc53b2-309f-4b6e-aa5f-e9185f1774d8",
 			"key": "token",
 			"value": "",
 			"type": "string"
 		},
 		{
-			"id": "68ea9b11-b5d5-465f-b092-640a51b9a637",
+			"id": "88e37865-c78f-40ac-be63-8dbdccf882d3",
 			"key": "tokenExpiry",
 			"value": "",
 			"type": "string"
